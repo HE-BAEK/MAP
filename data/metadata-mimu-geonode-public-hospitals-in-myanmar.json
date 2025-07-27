@@ -1,0 +1,54 @@
+{
+    "id": "e45a3d87-79f8-4d7f-bd22-7ce908e42c2a",
+    "title": "Public Hospitals in Myanmar",
+    "name": "mimu-geonode-public-hospitals-in-myanmar",
+    "notes": "Approximate centre point location dataset of public hospitals/hospital grounds in Myanmar as of 2020. Produced by CDE Myanmar based on publicly available reference lists and local knowledge and improving geographic coordinates using mostly large scale satellite/google satellite. Spatial dataset created based on 1:5.000 - 1:2.000 scaled imagery. Smaller facilities often only be village location or best guess hospital-like looking features near the original coordinate/settlement. Original dataset title: Public Hospitals in Myanmar as of 2020",
+    "dataset_source": "Myanmar Information Management Unit (MIMU)",
+    "organization": "Myanmar Information Management Unit (MIMU)",
+    "dataset_date": "[2020-01-01T00:00:00 TO 2020-12-31T23:59:59]",
+    "last_modified": "2024-10-16T12:30:00",
+    "data_update_frequency": "As needed",
+    "groups": [
+        "Myanmar"
+    ],
+    "license_title": "Other",
+    "methodology": "Other",
+    "methodology_other": "The information contained on this product is provided \u201cas is\u201d, for reference purposes only, based on current available information. The United Nations and the MIMU specifically do not make any warranties or representations as to the accuracy or completeness of such information nor does it imply official endorsement or acceptance by the United Nations. Please share any errors or omissions via maps@themimu.info.",
+    "caveats": "This product has been prepared for operational purposes only, to support humanitarian and development activities in Myanmar. Copyright \u00a92020 Myanmar Information Management Unit. MIMU geospatial datasets cannot be used on online platform unless with prior written agreement from MIMU. MIMU products are not for sale and can be used free of charge with attribution. For more information see http://themimu.info/mimu-terms-conditions.",
+    "tags": [
+        "geodata",
+        "health"
+    ],
+    "resources": [
+        {
+            "created": "2025-02-25T02:31:55.117846",
+            "description": "Zipped Shapefile. Approximate centre point location dataset of public hospitals/hospital grounds in Myanmar as of 2020. Produced by CDE Myanmar based on publicly available reference lists and local knowledge and improving geographic coordinates using mostly large scale satellite/google satellite.",
+            "format": "SHP",
+            "download_url": "https://geonode.themimu.info/geoserver/geonode/ows?format_options=charset%3AUTF-8&outputFormat=SHAPE-ZIP&version=1.0.0&service=WFS&request=GetFeature&typename=geonode:health_facilities_myanmar2020_v20241016",
+            "id": "35081764-538c-4711-bd16-f93635ffad9b",
+            "last_modified": "2024-10-16T12:30:00",
+            "metadata_modified": "2025-04-01T06:06:58.944074",
+            "microdata": false,
+            "dataset_id": "e45a3d87-79f8-4d7f-bd22-7ce908e42c2a",
+            "resource_type": "api",
+            "name": "Public Hospitals in Myanmar shapefile",
+            "mimetype": null,
+            "size": null
+        },
+        {
+            "created": "2025-02-25T02:31:55.117849",
+            "description": "GeoJSON file. Approximate centre point location dataset of public hospitals/hospital grounds in Myanmar as of 2020. Produced by CDE Myanmar based on publicly available reference lists and local knowledge and improving geographic coordinates using mostly large scale satellite/google satellite.",
+            "format": "GeoJSON",
+            "download_url": "https://geonode.themimu.info/geoserver/geonode/ows?service=WFS&version=1.0.0&request=GetFeature&outputFormat=application%2Fjson&typeName=geonode:health_facilities_myanmar2020_v20241016",
+            "id": "47578a11-2a9c-4c85-b016-cfb86450927a",
+            "last_modified": "2024-10-16T12:30:00",
+            "metadata_modified": "2025-04-01T06:07:02.569257",
+            "microdata": false,
+            "dataset_id": "e45a3d87-79f8-4d7f-bd22-7ce908e42c2a",
+            "resource_type": "api",
+            "name": "Public Hospitals in Myanmar geojson",
+            "mimetype": null,
+            "size": null
+        }
+    ]
+}
